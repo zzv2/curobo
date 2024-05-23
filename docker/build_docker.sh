@@ -46,6 +46,10 @@ elif [ "$input_arg" == "x86" ]; then
     echo "Building for X86 Architecture"
     dockerfile="x86.dockerfile"
     image_tag="x86"
+elif [ "$input_arg" == "ros1_x86" ]; then
+    echo "Building for ros1_X86 Architecture"
+    dockerfile="ros1_x86.dockerfile"
+    image_tag="ros1_x86"
 elif [ "$input_arg" = "aarch64" ]; then
     echo "Building for ARM Architecture"
     dockerfile="aarch64.dockerfile"
