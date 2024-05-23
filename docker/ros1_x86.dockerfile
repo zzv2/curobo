@@ -8,7 +8,7 @@
 ## without an express license agreement from NVIDIA CORPORATION or
 ## its affiliates is strictly prohibited.
 ##
-FROM nvcr.io/nvidia/pytorch:24.04-py3
+FROM nvcr.io/nvidia/pytorch:23.02-py3
 
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
