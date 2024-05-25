@@ -21,4 +21,4 @@ docker run --rm -it \
 --env DISPLAY=unix$DISPLAY \
 --volume /tmp/.X11-unix:/tmp/.X11-unix \
 --volume /dev/input:/dev/input \
-curobo_user_docker:latest
+gcr.io/software-builds/curobo_docker:ros1_x86
