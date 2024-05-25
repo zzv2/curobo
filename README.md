@@ -21,6 +21,14 @@ Use [Issues](https://github.com/NVlabs/curobo/issues) if you find a bug.
 
 For business inquiries, please visit our website and submit the form: [NVIDIA Research Licensing](https://www.nvidia.com/en-us/research/inquiries/)
 
+## Miso Additions
+
+Build
+```bash
+bash build_docker.sh ros1_x86
+bash start_docker_x86_robot.sh
+```
+
 ## Overview
 
 cuRobo is a CUDA accelerated library containing a suite of robotics algorithms that run significantly faster than existing implementations leveraging parallel compute. cuRobo currently provides the following algorithms: (1) forward and inverse kinematics,
